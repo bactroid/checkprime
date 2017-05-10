@@ -18,5 +18,13 @@
   "devDependencies": {
     "standard": "^10.0.2",
     "tape": "^4.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bactroid/checkprime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bactroid/checkprime/issues"
+  },
+  "homepage": "https://github.com/bactroid/checkprime#readme"
 }
