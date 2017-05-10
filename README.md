@@ -6,7 +6,11 @@ I have a weird mental quirk wherein I think of numbers at odd times and I feel c
 
 ## Installation
 
-This utility can be installed via `npm`.
+This utility can be installed via `npm`:
+
+`npm install checkprime`
+
+I recommend installing the package globally for convenience.
 
 ## Usage
 
