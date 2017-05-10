@@ -1,0 +1,22 @@
+{
+  "name": "checkprime",
+  "version": "1.0.0",
+  "description": "A simple CLI utility to check whether a number is prime",
+  "main": "index.js",
+  "bin": {
+    "checkprime": "bin/checkprime.js"
+  },
+  "scripts": {
+    "test": "standard && node lib/prime.test.js && node lib/factor.test.js"
+  },
+  "keywords": [],
+  "author": "Kate Haskell <fuzzcat@bactroid.net> (http://bactroid.net)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  }
+}
