@@ -1,6 +1,6 @@
 {
   "name": "checkprime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI utility to check whether a number is prime",
   "main": "index.js",
   "bin": {
