@@ -1,7 +1,7 @@
-const {getFactors} = require('./lib/factor')
-const {isPrime} = require('./lib/prime')
+const {isPrime} = require('./dist/prime')
+const {getFactors} = require('./dist/factor')
 
 module.exports = {
-  getFactors,
-  isPrime
+  isPrime,
+  getFactors
 }
