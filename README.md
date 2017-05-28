@@ -28,4 +28,4 @@ Returns an array of all factors for a given integer.
 
 ### `isPrime(num)`
 
-Returns true if the number is prime and false if the number is composite.
+Returns true if the number is prime and false if the number is composite. If a number is neither prime nor composite (0, 1, and negative numbers), the function returns null.

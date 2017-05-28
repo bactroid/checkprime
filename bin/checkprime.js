@@ -7,9 +7,14 @@ if (process.argv.length !== 3) {
   process.exit()
 }
 
-if (isPrime(process.argv[2])) {
-  console.log(process.argv[2] + ' is prime.')
+const num = parseFloat(process.argv[2])
+const result = isPrime(num)
+
+if (result) {
+  console.log(num + ' is prime.')
+} else if (result === null) {
+  console.log(num + ' is neither prime nor composite. ')
 } else {
-  console.log(process.argv[2] + ' is not prime.')
-  console.log(getFactors(process.argv[2]))
+  console.log(num + ' is composite.')
+  console.log(getFactors(num))
 }
