@@ -1,5 +1,7 @@
-const {isPrime} = require('./dist/prime')
-const {getFactors} = require('./dist/factor')
+const prime = require('./dist/prime')
+const isPrime = prime.isPrime
+const factor = require('./dist/factor')
+const getFactors = factor.getFactors
 
 module.exports = {
   isPrime,
