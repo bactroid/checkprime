@@ -1,14 +1,20 @@
 {
   "name": "checkprime",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A simple CLI utility to check whether a number is prime",
   "main": "index.js",
+  "standard": {
+    "globals": [
+      "expect",
+      "test"
+    ]
+  },
   "bin": {
     "checkprime": "bin/checkprime.js"
   },
   "scripts": {
-    "test": "standard && node src/prime.test.js && node src/factor.test.js",
-    "build": "babel src --presets babel-preset-es2015 --out-dir dist --ignore test.js"
+    "test": "standard && jest",
+    "build": "babel src --preset babel-preset-es2015 --out-dir dist --ignore test.js"
   },
   "keywords": [],
   "author": "Kate Haskell <fuzzcat@bactroid.net> (http://bactroid.net)",
@@ -19,8 +25,8 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
     "standard": "^10.0.2",
-    "tape": "^4.6.3",
     "uglify-js": "^3.0.12"
   },
   "repository": {
