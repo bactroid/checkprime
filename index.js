@@ -1,5 +1,5 @@
-const prime = require('./dist/prime')
-const factor = require('./dist/factor')
+const prime = require('./src/prime')
+const factor = require('./src/factor')
 
 module.exports = {
   isPrime: prime.isPrime,

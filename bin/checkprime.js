@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-const { isPrime } = require('../dist/prime')
-const { getFactors } = require('../dist/factor')
+const { isPrime } = require('../src/prime')
+const { getFactors } = require('../src/factor')
 
 if (process.argv.length !== 3) {
   console.error('Wrong!')
