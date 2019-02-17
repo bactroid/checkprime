@@ -19,7 +19,7 @@
   "author": "Kate Haskell <fuzzcat@bactroid.net> (http://bactroid.net)",
   "license": "GPL-3.0",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "@ramda/range": "^0.26.1"
   },
   "devDependencies": {
     "jest": "^21.2.1"

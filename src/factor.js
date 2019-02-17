@@ -1,4 +1,4 @@
-const { range } = require('lodash')
+const range = require('@ramda/range')
 
 const isFactor = (num, factor) => num % factor === 0
 
