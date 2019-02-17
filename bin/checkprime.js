@@ -3,7 +3,8 @@ const { isPrime } = require('../src/prime')
 const { getFactors } = require('../src/factor')
 
 if (process.argv.length !== 3) {
-  console.error('Wrong!')
+  console.error('Invalid input.')
+  console.error('Example: checkprime 231')
   process.exit()
 }
 
