@@ -22,7 +22,7 @@
     "@ramda/range": "^0.26.1"
   },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^24.1.0"
   },
   "repository": {
     "type": "git",
