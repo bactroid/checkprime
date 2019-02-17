@@ -1,4 +1,4 @@
-const {isPrime} = require('../src/prime')
+const { isPrime } = require('../src/prime')
 
 test('7 should return true', () => {
   expect(isPrime(7)).toBe(true)
