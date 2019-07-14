@@ -1,6 +1,6 @@
 {
   "name": "checkprime",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A simple CLI utility to check whether a number is prime",
   "main": "index.js",
   "standard": {
@@ -22,7 +22,7 @@
     "@ramda/range": "^0.26.1"
   },
   "devDependencies": {
-    "jest": "^24.1.0"
+    "jest": "^24.8.0"
   },
   "repository": {
     "type": "git",
